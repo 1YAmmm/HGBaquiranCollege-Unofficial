@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | HGBaquiran College</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"> <!-- AOS Animations -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg" >
+        <div class="container">
+            <a class="navbar-brand" href="../Structure/Home.html">HGBaquiran College</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item "><a class="nav-link" href="../Structure/Home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Structure/AboutUs.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../Structure/Courses.html">Course</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section with Map -->
+    <header class="hero-section text-white text-center py-2" style="background: url('hero.jpg') no-repeat center; background-size: cover;">
+        <div class="container" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 d-flex justify-content-center">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1739067810192!6m8!1m7!1sJb377HhuG0yufFNuRO_2ew!2m2!1d17.27615769961029!2d121.8090870578938!3f252.36406!4f0!5f0.7820865974627469" width="2000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Services Section -->
+    <section class="container" data-aos="fade-up">
+        <h2 class="text-center">Reach us with the following</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="card p-3">
+                    <h5>Telephone Number</h5>
+                    <p>(078) 323 1113</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+                <div class="card p-3">
+                    <h5>Email</h5>
+                    <p>hgbcregistrar2011@yahoo.com</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+                <div class="card p-3">
+                    <h5>Address</h5>
+                    <p>District 1, Tumauini, Philippines, 3325.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call to Action -->
+    <section class="cta-section text-white text-center py-5" style="background: #01155b;" data-aos="flip-up">
+        <div class="container">
+            <h3>Enroll Now!</h3>
+            <p>Shape your future with HGBaquiran College</p>
+        </div>
+    </section>
+    
+    <!-- Testimonials & Newsletter -->
+    <section class="container my-5" data-aos="fade-up">
+        <div class="row">
+            <!-- Testimonials Carousel -->
+            <div class="col-md-6">
+                <h4>Graduates Testimonials</h4>
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-aos="fade-right">
+                            <p class="lead">"Ang pogi ng IT Instructor"</p>
+                            <p><strong>- Unknown</strong></p>
+                        </div>
+                        <div class="carousel-item" data-aos="fade-right">
+                            <p class="lead">"Mabilis and Internet"</p>
+                            <p><strong>- Hotspot</strong></p>
+                        </div>
+                        <div class="carousel-item" data-aos="fade-right">
+                            <p class="lead">"....."</p>
+                            <p><strong>- Student</strong></p>
+                        </div>
+                    </div>
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <!-- Newsletter Subscription -->
+            <div class="col-md-6" data-aos="fade-left">
+                <h4>Get in touch</h4>
+                <input type="email" class="form-control" placeholder="Enter your email">
+                <button class="btn btn-primary mt-2">Enroll Now!</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="text-dark text-center py-3" data-aos="fade-up">
+        <p>&copy; 2025 HGBaquiran College. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init(); // Initialize AOS animations
+    </script>
+</body>
+</html>

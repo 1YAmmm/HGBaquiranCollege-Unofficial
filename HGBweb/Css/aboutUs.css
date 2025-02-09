@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+        body*{
+            font-family: "Bebas Neue", sans-serif;
+            color: white;
+        }
+       
+        .team-section {
+            padding: 80px 0;
+            background-color: #f9f9f9;
+        }
+
+        .team-member {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .team-member img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .team-member .member-info {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .team-member h5 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #333;
+        }
+
+        .team-member p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .team-member .social-icons a {
+            color: #333;
+            font-size: 1.25rem;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        .team-member .social-icons a:hover {
+            color: #007bff;
+        }
+
+        .mission-section {
+            padding: 60px 0;
+        }
+
+        .mission-section h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .mission-section p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+.mission-section {
+    background-image: url('/lesson2/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    position: relative;
+}
+
+
+.mission-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(2, 44, 82, 0.801); 
+    z-index: 1; 
+}
+
+
+.mission-section .container {
+    position: relative;
+    z-index: 2; 
+    color: #fff; 
+}
+
+
+.mission-section h2 {
+    color: white;
+    font-weight: bold;
+}
